@@ -1,0 +1,15 @@
+import * as ingredients from "./ingredients";
+import * as products from "./products";
+import * as cart from "./cart";
+import * as auth from "./auth";
+import * as usersOrders from "./usersOrders";
+import * as stories from "./stories";
+
+export const Api = {
+  products,
+  ingredients,
+  cart,
+  auth,
+  usersOrders,
+  stories,
+};
