@@ -1,7 +1,7 @@
 "use client";
 import { Title } from "@/shared/components/shared/title";
 import { useCart } from "@/shared/hooks/use-cart";
-import { useForm, SubmitHandler, FormProvider } from "react-hook-form";
+import { useForm, FormProvider } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { CheckoutCart } from "@/shared/components/shared/checkout/checkout-cart";
 import { CheckoutPersonalForm } from "@/shared/components/shared/checkout/checkout-personal-form";

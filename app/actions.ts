@@ -5,14 +5,10 @@ import { PayOrderTemplate } from "@/shared/components/shared/shared-templates/pa
 import { CheckoutFormValues } from "@/shared/constants/checkout-form-schema";
 import { sendEmail } from "@/shared/lib/send-email";
 import { OrderStatus, Prisma } from "@prisma/client";
-import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
-import { OrderSuccess } from "@/shared/components/shared/shared-templates/order-success";
-import { CartItemDTO } from "@/shared/services/dto/cart.dto";
 import { getUserSession } from "@/shared/lib/get-user-session";
 import { hashSync } from "bcrypt";
 import { VerificationUser } from "@/shared/components/shared/shared-templates/verification-user";
-import { useSession } from "next-auth/react";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/shared/constants/auth-options";
 import { createPayment } from "@/shared/lib/create-payment";
