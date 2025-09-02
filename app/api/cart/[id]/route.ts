@@ -51,7 +51,6 @@ export async function DELETE(
   { params }: { params: { id: string } }
 ) {
   try {
-    const id = Number(params.id);
     const token = req.cookies.get("cartToken")?.value;
 
     if (!token) {
