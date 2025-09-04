@@ -42,6 +42,7 @@
     "react-insta-stories": "^2.8.0",
     "react-use": "^17.5.1",
     "resend": "^4.5.1",
+    "sharp": "^0.34.3",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "use-detect-keyboard-open": "^0.4.0",
